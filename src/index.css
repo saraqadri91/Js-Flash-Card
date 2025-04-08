@@ -1,0 +1,90 @@
+:root {
+  --pink-light: #fbd6d2;
+  --pink-dark: #d97b6e;
+  --bg: #f7fff3;
+}
+@font-face {
+  font-family:"Jua" ;
+  src: url(./jua_5.1.0_korean-400-normal.woff2);
+}
+body {
+  font-family: "Jua", sans-serif;
+  background: var(--bg);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 20px;
+  color:  var(--pink-dark);
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+}
+
+.flashcard {
+  background: var(--pink-light);
+  border-radius: 10px;
+  padding: 50px 20px;
+  font-size: 1.5rem;
+  margin: 20px 0;
+  transition: 0.3s ease;
+  min-height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background: var(--pink-light);
+  border: none;
+  border-radius: 8px;
+  padding: 12px 18px;
+  font-weight: lighter;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+button:hover {
+  background: var(--pink-dark);
+  color: white;
+  transition: 0.3s ease;
+  font-weight: normal;
+}
+
+.progress-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.progress-bar {
+  background: #eee;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 75%;
+  height: 20px;
+  margin-right: 10px;
+ 
+}
+
+.fill {
+  background: var(--pink-dark);
+  height: 100%;
+  color: white;
+  text-align: center;
+  line-height: 20px;
+}
