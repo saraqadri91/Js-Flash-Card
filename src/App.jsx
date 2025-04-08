@@ -1,4 +1,4 @@
-import { FlashCardContainer } from "./components/flashCardContainer";
+import { FlashCardContainer } from "./Components/flashCardContainer";
 import "./index.css";
 
 function App() {
